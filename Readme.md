@@ -27,7 +27,7 @@ Options
 
 ```bash
 $ docker run -it --rm vziks/dgps \
-    --threshold 80 \
+    --threshold 70 \
     --strategy desktop \
     --format cli \
     https://marvel.com/
@@ -62,14 +62,14 @@ Optimize images                            | 181.83
 
 --------------------------------------------------------
 
-Threshold of 80 not met with score of 31
+Threshold of 70 not met with score of 31
 ```
 
 ### Demo 2
 
 ```bash
 $ docker run -it --rm vziks/dgps \
-    --threshold 80 \
+    --threshold 70 \
     --strategy mobile \
     --format json \
     https://marvel.com/
@@ -114,6 +114,6 @@ $ docker run -it --rm vziks/dgps \
   }
 }
 
-Threshold of 80 not met with score of 27
+Threshold of 70 not met with score of 27
 ```
 
